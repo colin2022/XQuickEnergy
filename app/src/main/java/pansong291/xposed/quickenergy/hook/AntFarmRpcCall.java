@@ -193,9 +193,9 @@ public class AntFarmRpcCall {
 
     public static int RandomScore(String str) {
         if ("starGame".equals(str)) {
-            return RandomUtils.nextInt(200, 300);
+            return RandomUtils.nextInt(300, 400);
         } else if ("jumpGame".equals(str)) {
-            return RandomUtils.nextInt(150, 170) * 10;
+            return RandomUtils.nextInt(250, 270) * 10;
         } else if ("flyGame".equals(str)) {
             return RandomUtils.nextInt(5000, 8000);
         } else if ("hitGame".equals(str)) {
